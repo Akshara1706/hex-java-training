@@ -1,9 +1,7 @@
 public class AttendanceReport {
     public static void main(String[] args) {
-
         int[] a = {20, 25, 30, 15, 40, 35, 20, 10, 45, 50};
         int[] prefix = new int[10];
-
         prefix[0] = a[0];
         for (int i = 1; i < 10; i++) {
             prefix[i] = prefix[i - 1] + a[i];

@@ -6,7 +6,6 @@ public class QueueArrayDeque{
         q.offer(150);
         q.offer(200);
         System.out.println(q);
-        System.out.println(q);
         q.poll();
         System.out.println(q);
     }
